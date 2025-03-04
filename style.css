@@ -119,25 +119,12 @@ header ul li{
 }
 .find ul li:hover{
     color: #fff;
-    background-image: var(--gradient-bg);
-}
-.banner .avatar{
-    position: relative;
-    height: max-content;
-    text-align: center;
-}
-.banner .avatar::before{
-    position: absolute;
-    width: 90%;
-    height: 80%;
-    content: '';
-    z-index: -1;
-    bottom: 0;
-    border-radius: 10px;
-    box-shadow: var(--box-shadow);
-}
+    background-image: var(--gradient-bg);}
+
+
 .banner img{
-    width: 90%;
+    width: 250px;
+    height: 250px;
 }
 header .navDiv,
 header .nav label,
